@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+compileJava.options.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'jp.sparkworks.sparkmockserver.Main'
+    }
+}
+
+task release(type: Copy, dependsOn: build) {
+    from 'build/libs'
+    into 'release'
+    include '*.jar'    
+}

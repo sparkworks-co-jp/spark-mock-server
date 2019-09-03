@@ -1,0 +1,22 @@
+{
+  "code": "I1000",
+  "message": "実行正常に完了しました。",
+  "customers": [
+    {
+      "customerId": 1,
+      "name": "cc",
+      "birthday": "19800101",
+      "address": "東京",
+      "telephoneNumber": "0312345678",
+      "email": "cc@cc.cc"
+    },
+    {
+      "customerId": 3,
+      "name": "cc",
+      "birthday": "19800106",
+      "address": "名古屋",
+      "telephoneNumber": "09012345678",
+      "email": "cc@cc.cc"
+    }
+  ]
+}

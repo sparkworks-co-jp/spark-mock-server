@@ -1,0 +1,12 @@
+{
+  "code": "I1000",
+  "message": "実行正常に完了しました。",
+  "customer": {
+    "customerId": 2,
+    "name": "spark",
+    "birthday": "19991231",
+    "address": "木場",
+    "telephoneNumber": "0312341111",
+    "email": "test@hoge.com"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "code": "I1000",
+  "message": "実行正常に完了しました。",
+  "customers": [
+    {
+      "customerId": 1,
+      "name": "cc",
+      "birthday": "19800101",
+      "address": "東京",
+      "telephoneNumber": "0312345678",
+      "email": "cc@cc.cc"
+    },
+    {
+      "customerId": 2,
+      "name": "一郎",
+      "birthday": "19991231",
+      "address": "木場",
+      "telephoneNumber": "0312341111",
+      "email": "test@hoge.com"
+    },
+    {
+      "customerId": 3,
+      "name": "111111",
+      "birthday": "19561209",
+      "address": "秋葉原",
+      "telephoneNumber": "0311223344",
+      "email": "cc@cc.cc"
+    },
+    {
+      "customerId": 4,
+      "name": "さおり",
+      "birthday": "19701231",
+      "address": "日本橋",
+      "telephoneNumber": "0312342222",
+      "email": "test2@hoge.com"
+    }
+  ]
+}
