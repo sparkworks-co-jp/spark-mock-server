@@ -41,7 +41,7 @@ public class SimpleHttpServer {
 				HttpRequest request = new HttpRequest(in);
 
 				HttpHeader header = request.getHeader();
-				httpStatusCode = Status.OK.name();
+				httpStatusCode = Status.OK.toString();
 
 				File file = getFile(header.getPath(), header.getMethod());
 
